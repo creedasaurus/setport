@@ -1,0 +1,22 @@
+USAGE:
+     setport [Options] {target}
+OPTIONS:
+     -h, --help, -?           :: Get usage information
+     -!, --about              :: See 'about' information
+     -v, --version            :: see version information
+     -p, --port  {port}       :: Set port
+          
+     -p -e [environment]      :: set port to environment var (see examples)
+     
+PORTS:
+     -- Only ports between 1 - 65000 are allowed
+EXAMPLES:
+     setport -p 8080
+     setport --port 8080
+     setport -h
+     setport --help
+     setport -p -e            //uses default environment var if there is one
+     setport -p -e MY_PORT    //uses a user specified env var
+     
+
+Set Port v0.1.0a ( https://stoopclub.ddns.net )

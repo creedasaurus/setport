@@ -1,0 +1,9 @@
+ERROR: portsetter requires arguments!
+ERROR: No more arguments required for 
+ERROR: Improper number of args for port setting
+No environment variable set to: 
+ERROR: invalid_argument for port flag
+ERROR: port cannot be alphanumeric: 
+ERROR: Port not within range.
+listening on port 
+ERROR: Unknown argument: 

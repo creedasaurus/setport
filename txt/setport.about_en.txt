@@ -1,0 +1,19 @@
+
+BIO:
+Creed Haymond is a programmer out of Provo, Utah.
+He likes to eat well-made burgers and french fries as often as his doctor will 
+allow. Coding since he first discovered it in 2011, he has been seeking 
+to build the ultimate fighting robot. 
+
+COMPANY:
+Stoopclub is the brainchild of some bored college students who decided it'd be 
+fun to hang out on the stoop of their apartment clomplex, listen to jazz,
+and drink delicious cold beverages while shootin' the breeze. Since, it has
+grown into a conglomerate of clever thinkers who have created small apps and 
+dreams.
+
+FOUNDING:
+Summer of 2015 :: On the stoop
+
+Find out more at stoopclub.ddns.net
+

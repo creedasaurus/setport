@@ -1,0 +1,9 @@
+ERROR: portsetter requiere argumentos!
+ERROR: No más argumentos necesarios para 
+ERROR: número incorrecto de argumentos para la configuración del puerto
+Sin variable de entorno establece en: 
+ERROR: invalid_argument de la bandera de puerto
+ERROR: puerto no puede ser alfanumérico: 
+ERROR: El puerto no dentro del alcance.
+escucha en el puerto 
+ERROR: Argumento desconocido: 

@@ -1,11 +1,19 @@
-~~~ setport v0.0.1 ~~~
+~~~ setport v0.1.0a ~~~
 File/Folder structure:
  
 setport/
 ├── src/
 │   ├── setport.cpp
+│   ├── testing-setport.cpp
+|
 ├── bin/
 │   ├── setport (once created)
+│   ├── testing-setport (once created)
+|
+├── txt/
+│   ├── setport.about_en.txt
+│   ├── setport.usage_en.txt
+|
 ├── README.txt
 ├── install.sh
 
@@ -22,3 +30,7 @@ Uninstallation:
 	sudo rm /usr/local/bin/setport
 2 - Delete directory containing these program files.
 
+
+Running Tests:
+1 - navigate to the executable: bin/testing-setport
+2 - execute using './bin/testing-setport'  OR  './testing-setport'
