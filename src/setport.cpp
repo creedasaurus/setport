@@ -17,7 +17,7 @@ enum messages {
 const string LANGHOLDERS[] = {"LANGUAGE", "LC_ALL", "LC_MESSAGES", "LANG"};
 const string version = "v0.1.0a";
 
-//Function to get the text from a file and save it as a string for use
+//Function to get the text from a file and save it as a string for use later
 string getFileText(const string&);
 
 int main(int argc, char *args[]) {
