@@ -10,12 +10,4 @@ cp bin/setport /usr/local/bin/setport
 
 # Set up folders for configurations
 mkdir /usr/local/etc/setport
-# Symlink in files from the source directory
-ln -s ~/workspace/setport/txt/setport.usage_en.txt /usr/local/etc/setport/setport.usage_en.txt
-ln -s ~/workspace/setport/txt/setport.about_en.txt /usr/local/etc/setport/setport.about_en.txt
-ln -s ~/workspace/setport/txt/setport.warnings_en.txt /usr/local/etc/setport/setport.warnings_en.txt
-# Spanish
-ln -s ~/workspace/setport/txt/setport.usage_es.txt /usr/local/etc/setport/setport.usage_es.txt
-ln -s ~/workspace/setport/txt/setport.about_es.txt /usr/local/etc/setport/setport.about_es.txt
-ln -s ~/workspace/setport/txt/setport.warnings_es.txt /usr/local/etc/setport/setport.warnings_es.txt
-
+cp txt/* /usr/local/etc/setport/
