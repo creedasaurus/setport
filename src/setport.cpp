@@ -52,7 +52,7 @@ int main(int argc, char *args[]) {
 	
 	// Get the warning text strings depending on the locale
 	vector<string> status;
-	fstream inFile("/usr/local/etc/setport/setport.warnings_" + loc + ".txt");
+	fstream inFile("/usr/local/etc/setport/setport.warnings_" + loc + ".txt", ios::in);
 	string temp;
 	if (inFile.is_open()) {
 		while (getline(inFile, temp)) {
@@ -60,6 +60,7 @@ int main(int argc, char *args[]) {
 		}
 		inFile.close();
 	}
+
 	//----- end getting warning strings ------
 
 	
@@ -74,6 +75,7 @@ int main(int argc, char *args[]) {
 		cout << usageText;
 		return EXIT_SUCCESS;
 	}
+	
 
 	string flag = args[1];
 
@@ -204,8 +206,9 @@ int main(int argc, char *args[]) {
 string getFileText(const string& inputFileName) {
 	string temp;
 	string fileText = "";
+
 	
-	fstream inFile(inputFileName);
+	fstream inFile(inputFileName, ios::in);
 	
 	if (inFile.is_open()) {
 		while (getline(inFile, temp)) {
