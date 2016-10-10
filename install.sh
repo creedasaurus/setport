@@ -1,4 +1,7 @@
 #!/bin/bash
+
+mkdir bin
+
 echo "Compiling program from source"
 g++ -std=c++11 -o bin/setport src/setport.cpp
 echo "Compiling test program :: run- './bin/testing-setport' for a test report"
